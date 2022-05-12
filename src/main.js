@@ -11,4 +11,27 @@ $(document).ready(function () {
   $(#"sign-in-form").sumbit(function (e) {
       e.preventDefault();
   });
+
+  //TODO: 讀帳號密碼輸入時，版行維持
+$("#account").blur(function (e) {
+    if ($(e.target).val ！==""){
+      $("#addr-hint-text").addClass("translate-y-5 text-xs text-sky-300");
+    }else{
+
+      $("#addr-hint-text").addClass("translate-y-5 text-xs text-sky-300");
+    }
+  });
+
+$("#password");).blur(function (e) {
+    if ($(e.target).val ！==""){
+      $("#password-hint-text").addClass("translate-y-5 text-xs text-sky-300");
+    }else{
+
+      $("#password-hint-text.").addClass("translate-y-5 text-xs text-sky-300");
+    }
+  });
+  
 });
+
+
+
