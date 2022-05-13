@@ -7,38 +7,55 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="container" class="flex h-screen w-screen items-center 
-    justify-center bg-gradient-to-bl 
-    from-purple-400 to-sky-400 px-2">
-      <form id="sign-in-form" class="flex w-full max-w-sm flex-col 
-      justify-center gap-10 rounded-lg bg-white px-6 py-10">
+    <div
+      id="container"
+      class="flex h-screen w-screen items-center justify-center bg-gradient-to-bl from-purple-400 to-sky-400 px-2"
+    >
+      <form
+        id="sign-in-form"
+        class="flex w-full max-w-sm flex-col justify-center gap-10 rounded-lg bg-white px-6 py-10"
+      >
         <h1 id="sign-in-form-title" class="text-5xl">登入</h1>
         <div id="sign-in-input" class="flex w-full flex-col items-center gap-5">
           <label for="account" class="relative w-full py-2">
-            <input type="text" id="account" 
-            class="peer w-full border-b-2 border-sky-200 
-            py-1 outline-none focus:border-b-4">
-            <p id="addr-hint-text" class="absolute top-2 
-            left-0 w-10 cursor-text select-none duration-200
-            peer-focus:-translate-y-5 peer-focus:text-xs 
-            peer-focus:text-sky-300">帳號</p>
+            <input
+              type="text"
+              id="account"
+              class="peer w-full border-b-2 border-sky-200 py-1 outline-none focus:border-b-4"
+            />
+            <p
+              id="addr-hint-text"
+              class="absolute top-2 left-0 w-10 cursor-text select-none duration-200 peer-focus:-translate-y-5 peer-focus:text-xs peer-focus:text-sky-300"
+            >
+              帳號
+            </p>
           </label>
           <label for="password" class="relative py-2">
-            <input type="password" id="password" class="peer w-full border-b-2 border-sky-200 
-            py-1 outline-none focus:border-b-4">
-            <p id="password-hint-text" class="absolute top-2 
-            left-0 w-10 cursor-text select-none duration-200
-            peer-focus:-translate-y-5 peer-focus:text-xs 
-            peer-focus:">密碼</p>
+            <input
+              type="password"
+              id="password"
+              class="peer w-full border-b-2 border-sky-200 py-1 outline-none focus:border-b-4"
+            />
+            <p
+              id="password-hint-text"
+              class="peer-focus: absolute top-2 left-0 w-10 cursor-text select-none duration-200 peer-focus:-translate-y-5 peer-focus:text-xs"
+            >
+              密碼
+            </p>
           </label>
         </div>
-        <div>
-        <a href="" id="forget-password-link" 
-        class="text-sky-400 
-        hover:border-b-2 hover:border-sky-400 hover:font-bold">忘記密碼</a>
-        <buttom type="submit" id="submit-botton" class="rounded-md 
-        bg-sky-500 py-2 text-white 
-        active:translate-y-2 active:translate-x-1">登入</buttom>
+        <a
+          href=""
+          id="forget-password-link"
+          class="text-sky-400 hover:border-b-2 hover:border-sky-400 hover:font-bold"
+          >忘記密碼</a
+        >
+        <buttom
+          type="submit"
+          id="submit-botton"
+          class="rounded-md bg-sky-500 py-2 text-white active:translate-y-2 active:translate-x-1"
+          >登入</buttom
+        >
       </form>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
