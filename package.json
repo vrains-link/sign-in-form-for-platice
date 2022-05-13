@@ -1,8 +1,8 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "cross-env TAILWAIND_MODE=watch vite",
+    "build": "cross-env TAILWAIND_MODE=build vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
